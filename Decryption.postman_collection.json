@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "aa9aa13c-0b46-4d00-90ac-99de2c5d9101",
+		"name": "Decryption",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:3000/decrypt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"integrationId\": \"ff8080815f05d5ed015f0b5b56080cd2\",\n \"integrationName\": \"My WhatsApp Production Integration\",\n \"content\": \"jebdKRR+wD6gBgOEW2z1bOzAuCJVtg00w9XxQme41beWjWUlMVozmf4iMm8iNddu\",\n \"messageId\": \"ff8080815f772074015f77d65dce096d\",\n \"relatedMessageId\": null,\n \"from\": \"27836260714\",\n \"timestamp\": 1509544054,\n \"encryptionKey\" : \"AQIDAHg8XuzcGJLrtsZ81gMO5r0gEhg5TfXRQUNyXsvw1YRJGgHFeJr9enGzwSuFdpcD1FB+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdOJHkxHrulh5sqToAgEQgDv15jYK+zwweGqPkw/P2rKMfftfasX7Pqo099+Qa6vBpXTiwubDPeOsF39OQYUYzjxbdoicNaF176Vp2g==\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/decrypt",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"decrypt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/decrypt",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"integrationId\": \"ff8080815f05d5ed015f0b5b56080cd2\",\n \"integrationName\": \"My WhatsApp Production Integration\",\n \"content\": \"jebdKRR+wD6gBgOEW2z1bOzAuCJVtg00w9XxQme41beWjWUlMVozmf4iMm8iNddu\",\n \"messageId\": \"ff8080815f772074015f77d65dce096d\",\n \"relatedMessageId\": null,\n \"from\": \"27836260714\",\n \"timestamp\": 1509544054,\n \"encryptionKey\" : \"AQIDAHg8XuzcGJLrtsZ81gMO5r0gEhg5TfXRQUNyXsvw1YRJGgHFeJr9enGzwSuFdpcD1FB+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdOJHkxHrulh5sqToAgEQgDv15jYK+zwweGqPkw/P2rKMfftfasX7Pqo099+Qa6vBpXTiwubDPeOsF39OQYUYzjxbdoicNaF176Vp2g==\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/decrypt",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"decrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
